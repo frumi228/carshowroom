@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Contact Form</title>
+	
+	<meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+   <script type="text/javascript" language="javascript">
+ function Validate()
+{
+	var Name = document.dataform.name.value;	
+	var Email= document.dataform.textemail.value;
+	var query=document.dataform.text.value;
+	
+
+	if(
+		   
+		 (query =="")
+		
+	
+		|| (Name==""))
+{
+	alert(" Failure , Please Fill Out Required Fields") ;
+}
+
+
+}
+    function checkE()
+{
+	if(!document.dataform.textemail.value.match(/\S+@\S+\.\S+/))
+	{
+		document.getElementById('eid').style.backgroundColor="red"	;
+	}
+	else{
+		document.getElementById('eid').style.backgroundColor="green";
+
+	}
+}
+</script>
+</head>
+
+<body>
+
+	<h2>Contact Form</h2>
+	
+	<form name="dataform" method="post" action="query.php">
+		
+		<p class="name">
+			<input type="text" name="name" id="name" placeholder="Enter Your Full Name" required />
+			<label for="name">Name*</label>
+		</p>
+		
+		<p class="email">
+			<input type="text" name="textemail" id="eid" placeholder="Enter Your  Email" onChange="checkE()" required />
+            
+			<label for="textemail">Email</label>
+		</p>
+		
+		<p class="web">
+			<input type="text" name="web" id="web" placeholder="www.example.com" />
+			<label for="web">Website</label>
+		</p>		
+	
+		<p class="text">
+			<textarea input type="text"  name="text" placeholder="Write something to us" ></textarea>
+		</p>
+		
+		<p class="submit">
+			<input type="submit" value="Send"  onClick="Validate()" />
+            
+		</p>
+        <p class="submit">
+			<a href="../Contact_us.html"><input type="button" value="Back"/></a>
+		</p>
+	</form>
+
+</body>
+
+</html>
+

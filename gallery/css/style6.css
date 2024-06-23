@@ -1,0 +1,265 @@
+nav {
+margin-top:150px;
+position:absolute;      
+}
+
+span a:hover
+{
+	color:#000;
+  text-decoration:none;
+  font-size:18px;
+  opacity:1;
+  
+}
+table{
+	float:left;
+	border-collapse:separate;
+	border-spacing:25px;
+	font-family:"Times New Roman", Times, serif;
+	font-size:18px;
+	color:#FFF;
+	background:none;
+}
+.classic{
+	margin-top:50px;
+	margin-left:200px;
+}
+	
+nav div {
+	
+    width: 90px;
+    height: 30px;
+    background:#333;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+	border-radius: 2px;
+	-webkit-border-radius: 5px;
+	color:#FFF;
+	text-align:center;
+	padding-top:9px;
+	opacity:0.5;
+	font-family: 'BebasNeueRegular';
+}
+p{
+	width: 90px;
+    height: 30px;
+   background:#333;
+
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+	border-radius: 2px;
+	-webkit-border-radius: 5px;
+	color:#FFF;
+	text-align:center;
+	padding-top:10px;
+	opacity:0.5;
+	font-family: 'BebasNeueRegular';
+	
+	}	
+
+p a{
+	color:#FFF;	
+	text-align:center;
+	padding-top:10px;
+	
+	font-family: 'BebasNeueRegular';
+}
+.hor table{
+    border-collapse: separate;
+    border-spacing: 20px 5px;
+	background:none;
+}
+
+p:hover{
+	 width: 250px;
+	opacity:1;
+	animation-name: example;
+    
+	 -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 2s; 
+}
+.brand1 img{
+	
+	margin-left:175px;
+    transition: width 2s, height 4s, transform 4s;
+	height:180px;
+	width:200px;
+	position:relative;
+	display:block;
+}
+
+.brand1 img:hover{
+	opacity:0.5;
+}
+
+img{
+opacity:0.7;
+
+}
+
+
+img:hover{
+				 width: 540px;
+    			height: 350px;
+				cursor:pointer;
+            	opacity:1;
+			 -webkit-transition: width 2s, height 2s; /* For Safari 3.1 to 6.0 */
+          transition: width 2s, height 2s;
+		  
+	
+}
+
+nav div:hover {
+    width: 250px;
+	opacity:1;
+	animation-name: example;
+    
+	 -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 2s; 
+	
+	
+}
+
+.selected,nav a:hover
+{
+	color:#000;
+	background-color:#999; 
+  text-decoration:none;
+  width:150px;
+  opacity:.7;
+  font-size:18px;  
+}
+
+.sselected
+{
+	color:#000;
+	background-color:#9C6; 
+  text-decoration:none;
+  width:100px;
+  opacity:1;
+  font-size:px;  
+}
+.hor{
+	margin-top:75px;
+	margin-left:75px;}
+	
+.hr{
+	margin-top:220px;
+
+	}
+
+
+.btn{
+	width:60px;
+	height:25px;
+	background:#666;
+	color:#FFF;
+	font-family:"Times New Roman", Times, serif;
+	font-size:14px;
+	border-radius:15px;
+	-moz-box-shadow:inset 0px 1px 0px 0px #caefab;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #caefab;
+	box-shadow:inset 0px 1px 0px 0px #caefab;
+    display:inline-block;
+}
+.btn:hover {
+		opacity:0.5;
+	  
+	font-size:18px;
+	width:90px;
+	
+	 -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s;
+		 -webkit-transition: width 1s,  /* For Safari 3.1 to 6.0 */
+          transition: width 1s, ;
+}
+
+	.mbtn {
+		margin-left:250px;
+	-moz-box-shadow:inset 0px 1px 0px 0px #caefab;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #caefab;
+	box-shadow:inset 0px 1px 0px 0px #caefab;
+
+	background-color:#F11F24;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#FFF;
+	font-family:Times New Roman;
+	font-size:19px;
+	font-weight:bold;
+	padding:16px 26px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #aade7c;
+	opacity:0.5;
+}
+.mbtn:hover {
+	
+	background-color:#F11F24;
+	-webkit-animation: spin 2s linear infinite;
+	
+	-webkit-animation-name: spin;
+}
+.mbtn:active {
+	position:relative;
+	top:1px;
+}
+
+.specbtn {
+		margin-left:250px;
+	}
+
+	
+/*--ajazloader
+#aajaxloader
+{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	border: 8px solid #fff;
+	border-right-color: transparent;
+	border-radius: 50%;
+	box-shadow: 0 0 25px 2px #eee;
+	border-right: 0 none;
+}
+
+#aajaxloader
+{
+	-webkit-animation: spin 1s linear infinite;
+	
+	-webkit-animation-name: spin;
+}
+
+*/
+.ajaxloader
+{
+	 
+	-webkit-animation: spin 5s linear infinite;
+	
+	-webkit-animation-name: spin;
+}
+
+@-webkit-keyframes spin
+{
+	
+	50% { transform: rotateY(90deg); opacity: 1; }
+	
+}
+
+
+@-webkit-keyframes example {
+    from {background-color:#CCC;
+		color:#FFF;}
+    to {background-color:#666;
+		color:#000;}
+}
+
+}
+/* Standard syntax */
+@keyframes example {
+    from {background-color: red;}
+	
+    to {background-color: yellow;}
+}
